@@ -1,0 +1,49 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-32.99689190130732" scrolly="106.85033062499127" scale="0.8163265306122448">
+    <block xmlns="https://developers.google.com/blockly/xml" type="animateParam" id="TyCm:[T^uYGy:utgSdCV" x="50" y="190">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+      <field name="EASING">Sinusoidal</field>
+      <field name="EASING2">In</field>
+      <field name="YOYO">TRUE</field>
+      <value name="FROM">
+        <shadow type="math_number" id="Hkh##%sB[).b$C!/Dcqa">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="$GY-+cQqA28E?GIia$Px">
+          <field name="NUM">15</field>
+        </shadow>
+      </value>
+      <value name="DURATION">
+        <shadow type="math_number" id="x7N;$:QQszzA40=sX`.@">
+          <field name="NUM">30</field>
+        </shadow>
+      </value>
+      <value name="REPEAT">
+        <shadow type="math_number" id="6@/PUX[YurG0!!P}UGyM">
+          <field name="NUM">10</field>
+        </shadow>
+      </value>
+      <statement name="ON_UPDATE">
+        <block type="setMaterialValue" id="dI90s+HzwqVsQ0g8rG93">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" flexvalinput="false"></mutation>
+          <field name="MAT_VAL_NAME">Value</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="5dWc:J7ZEPZ{`*qd~?I`">
+              <field name="FIELDNAME">Airflow</field>
+            </shadow>
+          </value>
+          <value name="VALUE">
+            <shadow type="math_number" id="I:YMoA^V|6WkG_30PV4{">
+              <field name="NUM">0.5</field>
+            </shadow>
+            <block type="animateParamUpdate" id="xO*8rH7wjauBiKWsZ6|g"></block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="37" viewport-w="614.4" viewport-h="388" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
